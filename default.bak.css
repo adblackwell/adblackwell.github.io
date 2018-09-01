@@ -1,0 +1,678 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: auto;
+		width: 100%;
+		background: #FFF;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #4C4C4C;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 150%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #4d3319;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		width: 90%;
+		margin: 0 auto;
+		background: #ffffff;
+	}
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-right
+	{
+		float: right;
+		margin: 0 2em 2em 0;
+	}
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style1 li
+	{
+		padding: 0.60em 0;
+	}
+	
+	ul.style1 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+	ul.style2
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style2 li
+	{
+		padding: 0em 0;
+	}
+	
+	ul.style2 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 0em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		padding: 0em 0.30em 0.8em 0em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		letter-spacing: 0.20em;
+		text-transform: uppercase;
+		font-size: 0.90em;		
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		margin-right: 1em;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 3em 1em 2em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+	
+	.button:before
+	{
+		display: inline-block;
+		background: #FFC31F;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+		
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		position: relative;
+		margin-bottom: 2em;
+		padding-bottom: 1em;
+		text-transform: uppercase;
+		border-bottom: 2px solid #CCC;
+		clear: both;
+	}
+
+	.title:after
+	{
+		display: block;
+		content: " ";
+		position: absolute;
+		bottom: -2px;
+		width: 2em;
+		border-bottom: 2px solid #e10126;
+		left: 0;
+	}
+	
+	.title h1
+	{
+		text-align: center;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #000;
+	}
+	
+	.title h1::before { 
+		display: block; 
+		content: " "; 
+		margin-top: -75px; 
+		height: 75px; 
+		visibility: hidden; 
+		pointer-events: none;
+}
+	
+	.title h2
+	{
+		text-align: center;
+		letter-spacing: 0.20em;
+		font-weight: 700;
+		font-size: 2em;
+		color: #171717;
+	}
+	
+	.title h2::before { 
+		display: block; 
+		content: " "; 
+		margin-top: -75px; 
+		height: 75px; 
+		visibility: hidden; 
+		pointer-events: none;
+}
+
+	.title .byline
+	{
+		text-align: center;
+		display: block;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
+	.title2
+	{
+		position: relative;
+		margin-bottom: 2em;
+		padding-bottom: 1em;
+		text-transform: uppercase;
+		border-bottom: 2px solid #CCC;
+	}
+
+	.title2:after
+	{
+		display: block;
+		content: " ";
+		position: absolute;
+		bottom: -2px;
+		width: 2em;
+		border-bottom: 2px solid #e10126;
+		left: 0;
+	}
+	
+	.title2 h2
+	{
+
+		letter-spacing: 0.20em;
+		font-weight: 700;
+		font-size: 2em;
+		color: #171717;
+	}
+
+	.clear
+	{
+		clear: both;
+	}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+/*		background: #1E1B1A; box-shadow: inset 0 -15px 10px -10px rgba(0,0,0,.2);*/
+/* old #e10126	blue #3a579e red #e10126 */
+
+	#header-wrapper
+	{
+		overflow: hidden;
+
+	}
+
+	#header
+	{
+		background: #ffffff;
+		margin: 0px;
+		position: fixed;
+		z-index: 999;
+		height: 75px;
+	}
+	
+	#head-banner
+	{
+		top: 75px;
+		position: fixed;
+		height: 400px;
+		width: 100%;
+		background: url(images/utilabanner.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		z-index: 1;
+		
+	}
+	
+	#head-banner h2 {
+		margin: 130px auto auto auto;
+		color: #fff;
+		font-size: 50px;
+		line-height: 60px;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+	}
+	
+	#head-banner .byline {
+		margin: 0px auto;
+		color: #fff;
+		font-size: 20px;
+		line-height: 60px;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+	}
+	
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top: 1.0em;
+		left: 0;
+		width: 35%;
+	}
+	
+	#logo h1
+	{
+		display: inline-block;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #000;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #000;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		text-align: center;
+		top: 1em;
+		width: 100%;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: block;
+		padding: 1.50em 1.0em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: #000;
+		vertical-align: middle;
+	}
+	
+	#menu li a h1
+	{
+		margin-top: -0.25em;
+		margin-right: 4em;
+		display: block;
+		font-size: 2em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #000;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .current_page_item a
+	{
+		color: #FFF;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	.banner{
+		display: inline-block;
+	
+	}
+
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		position: relative;
+		overflow: hidden;
+		padding: 475px 0em 3em 0em;
+		z-index: 998;
+		width: 100%;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		width: 90%;
+	}
+	
+	#contentsidebar
+	{
+		float: right;
+		width: 60%;
+	}
+	
+	#content .image-full
+	{
+		margin-bottom: 1em;
+	}
+	#content .box .image-full
+	{
+		overflow: hidden;
+		margin-bottom: 0 !important;
+		padding: 10px;
+		background: #000;
+	}
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		float: left;
+		width: 30%;
+	}
+	
+	#sidebarright
+	{
+		float: right;
+		width: 30%;
+	}
+	
+	#sidebarleft
+	{
+		float: left;
+		width: 65%;
+	}
+	
+	#sidebar .title h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#sidebar .title2 h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#sidebar .box1
+	{
+		margin-bottom: 3em;
+	}
+
+/*********************************************************************************/
+/* Footer     		background: #1E1B1A;                                                                    */
+/*********************************************************************************/
+	
+	#footer-wrapper
+	{
+		overflow: hidden;
+		padding: 1em 0em 50px 0em;
+	}
+
+	#footer
+	{
+	}
+	
+	#footer .title h2
+	{
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #000;
+	}
+
+	#footer .title
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#footer .style1 li
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#footer .style1 a
+	{
+		letter-spacing: 0.10em;
+		text-decoration: none;
+		font-size:1em;
+		color: #111111;
+	}
+	
+	#box1
+	{
+		float: left;
+		width: 60%;
+	}
+	
+	#box2
+	{
+		margin: auto;
+		width: 50%;
+	}
+	
+	#box3
+	{
+		float: right;
+		width: 30%;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 1em 0em 0em 0em;
+		position: fixed;
+		bottom: 0;
+		background: #ffffff;
+		margin: 0px 4%;
+		z-index: 998;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: #6F6F6F;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: #8C8C8C;
+	}
+
+/*********************************************************************************/
+/* Featured     #FFF                                                                 */
+/*********************************************************************************/
+
+	#featured-wrapper
+	{
+		overflow: hidden;
+		padding: 1em 0em;
+		background: #1E1B1A;
+	}
+	
+	#featured
+	{
+		overflow: hidden;
+	}
+	
+	#featured .box
+	{
+		float: left;
+		overflow: hidden;
+		width: 5%;
+		padding: 1%;
+		background: #000;
+		margin: 1%;
+	}
+	
+	#feaured .box .image-full
+	{
+		margin-bottom: 0 !important;
+	}
+	
+
+
