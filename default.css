@@ -268,7 +268,7 @@
 	#parent {
 		margin-top: 425px;
 		overflow: hidden;
-		height: 600px;
+		min-height: 600px;
 		padding: 25px 3% 0 3%;
 	}
 	
