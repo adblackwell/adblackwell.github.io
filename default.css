@@ -233,7 +233,7 @@
 	#menu li a, #menu li span
 	{
 		display: block;
-		padding: 1.50em 1.0em;
+		padding: 1em 1.0em 0em 0.5em;
 		letter-spacing: 0.20em;
 		text-decoration: none;
 		font-size: 0.90em;
@@ -247,7 +247,7 @@
 	#menu li a h1
 	{
 		margin-top: -0.25em;
-		margin-right: 4em;
+		margin-right: 1em;
 		display: block;
 		font-size: 2em;
 		text-transform: uppercase;
