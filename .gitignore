@@ -4,3 +4,5 @@ fonts/.dropbox.attr
 icons/.dropbox.attr
 images/.dropbox.attr
 redirect/.dropbox.attr
+*.attr
+*.attr
