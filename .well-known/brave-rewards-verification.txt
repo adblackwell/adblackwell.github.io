@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: blackwell-lab.com
+Token: 45138c0f70aafde6dd473530e7c44076d895746863eecef0b334d85c9dee0157
